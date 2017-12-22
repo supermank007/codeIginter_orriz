@@ -1,0 +1,3 @@
+#!/bin/bash
+
+php /var/www/html/orriz.com/index.php cron postclear >> /var/www/html/orriz.com/application/logs/cron_log 2>&1

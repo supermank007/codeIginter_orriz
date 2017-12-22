@@ -1,0 +1,11 @@
+{
+  "name": "orriz_node_app",
+  "version": "0.0.1",
+  "description": "node_app",
+  "dependencies": {
+    "formidable": "^1.1.1",
+    "requestify": "latest",
+    "socket.io": "latest"
+  },
+  "author": "Pavlo"
+}

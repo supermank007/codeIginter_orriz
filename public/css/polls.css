@@ -1,0 +1,65 @@
+ol {
+    counter-reset: list;
+    padding-left: 0px;
+}
+
+ol > li {
+    list-style: none;
+}
+
+ol > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+}
+
+.tab-pane {
+    padding-top: 20px;
+}
+
+.tab-pane table thead {
+    background: #DFDFDF;
+}
+
+.tab-pane table tbody tr:nth-child(even) {
+    background: #DFDFDF;
+}
+
+.tab-pane table tbody tr:nth-child(odd) {
+    background: #F0F0F0;
+}
+
+p.question {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+ol.option-list {
+    margin-left: 10px;
+}
+
+div.option-list {
+    padding-left: 10px;
+}
+
+.tab-pane button {
+    float: none;
+}
+
+.progress {
+    background: #E7E8E9;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 0px;
+}
+
+.progress-bar {
+    color: #FFFFFF;
+}
+
+.col-option {
+    width: 71%;
+}
+
+.col-button {
+    width: 11%;
+}

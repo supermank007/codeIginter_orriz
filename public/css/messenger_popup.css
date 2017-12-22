@@ -1,0 +1,122 @@
+.chat-popup-box {
+    display: none;
+    z-index: 100;
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    height: 305px;
+    background-color: rgb(237, 239, 244);
+    width: 260px;
+    border: 1px solid rgba(29, 49, 91, .3);
+}
+
+.chat-popup-box .popup-head {
+    height: 30px;
+    background-color: #6d84b4;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    clear: both;
+}
+
+.chat-popup-box .popup-head .popup-head-left {
+    float: left;
+}
+
+.chat-popup-box .popup-head-left a {
+    color: #d1dbff;
+}
+
+.chat-popup-box .popup-head-left a:hover {
+    color: white;
+}
+
+.chat-popup-box .popup-head .popup-head-right {
+    float: right;
+    opacity: 0.5;
+}
+
+.chat-popup-box .popup-head .popup-head-right a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.chat-popup-box .popup-messages {
+    height: 240px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.chat-popup-box .sendmessage {
+    height: 30px;
+    width: 100%;
+}
+
+#MessengerFriendsList {
+    position: absolute;
+    display: none;
+    background: whitesmoke;
+    z-index: 1000;
+    border: 1px solid rgba(29, 49, 91, .3);
+    width: 250px;
+}
+
+#MessengerFriendsList a {
+    color: black;
+}
+
+.navigation-messenger-friend .friend-name {
+    display: table;
+    height: 40px;
+}
+
+.navigation-messenger-friend .friend-name span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#MessengerFriendsList a:hover {
+    color: #fec72e;
+}
+
+.navigation-messenger-friend {
+    border-bottom: 1px solid rgba(29, 49, 91, .3);
+}
+
+.navigation-messenger-friend:hover {
+    cursor: pointer;
+    background: #cae6ff;
+}
+
+.popup-messages .from-me {
+    background-color: #0084ff;
+    color: #fff;
+    border-bottom-left-radius: 1.3em;
+    border-top-left-radius: 1.3em;
+    border-top-right-radius: 1.3em;
+    border-bottom-right-radius: 1.3em;
+    padding: 5px;
+    max-width: 70%;
+    margin-top: 2px;
+}
+
+.popup-messages .to-me {
+    background-color: #f1f0f0;
+    color: rgba(0, 0, 0, 1);
+    border-bottom-left-radius: 1.3em;
+    border-top-left-radius: 1.3em;
+    border-top-right-radius: 1.3em;
+    border-bottom-right-radius: 1.3em;
+    padding: 5px;
+    max-width: 70%;
+}
+
+.single-popup-message, .single-message {
+    word-break: break-word;
+}
+
+.single-popup-message img, .single-message img {
+    height: 20px;
+    width: 20px;
+}
